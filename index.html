@@ -13,14 +13,14 @@
     <meta property="og:url" content="https://randomkeygen.com">
     <meta property="og:description" content="RandomKeygen is a free mobile-friendly tool that offers a randomly generated keys and passwords you can use to secure any application, service or device.">
 
-    <link rel="shortcut icon" href="icons/favicon.ico">
-    <link href="icons/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-    <link href="icons/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167">
-    <link href="icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link rel="shortcut icon" href="static/icons/favicon.ico">
+    <link href="static/icons/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="static/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="static/icons/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167">
+    <link href="static/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
     <link href="icon-hires.png" rel="icon" sizes="192x192">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="static/css/style.css">
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
@@ -71,15 +71,15 @@
     </header>
     <div class="container">
         <div class="ad top">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
             <!-- RandomKeygen Leaderboard -->
-            <ins class="adsbygoogle"
+            <!-- <ins class="adsbygoogle"
                  style="display:inline-block;width:728px;height:90px"
                  data-ad-client="ca-pub-8400268452481648"
-                 data-ad-slot="7865192997"></ins>
-            <script>
+                 data-ad-slot="7865192997"></ins> -->
+            <!-- <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+            </script> -->
             <!--
             <div id='div-gpt-ad-1464369541122-0'>
                 <script type='text/javascript'>
@@ -118,9 +118,12 @@
               </div>
               <div class="bsa-cpc"></div>
             </div>
-            <script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+            <!-- <script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script> -->
+            <script src="monetize.min.js" type="text/javascript"></script>
             <script>
             (function() {
+
+                console.log( typeof _bsa );
               if (typeof _bsa !== 'undefined' && _bsa) {
                 _bsa.init('default', 'CVAILKQY', 'placement:randomkeygencom', {
                   target: '.bsa-cpc',
